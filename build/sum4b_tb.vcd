@@ -1,0 +1,289 @@
+$date
+	Wed Aug 28 19:26:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module sum4b_tb $end
+$scope module uut $end
+$var wire 4 ! A [3:0] $end
+$var wire 4 " B [3:0] $end
+$var wire 1 # Cout $end
+$var wire 1 $ co $end
+$var wire 1 % c3 $end
+$var wire 1 & c2 $end
+$var wire 1 ' c1 $end
+$var wire 4 ( Sum [3:0] $end
+$scope module s0 $end
+$var wire 1 ) A $end
+$var wire 1 * B $end
+$var wire 1 + Ci $end
+$var wire 1 , Sum $end
+$var wire 1 ' Cout $end
+$var reg 2 - result [1:0] $end
+$upscope $end
+$scope module s1 $end
+$var wire 1 . A $end
+$var wire 1 / B $end
+$var wire 1 ' Ci $end
+$var wire 1 0 Sum $end
+$var wire 1 & Cout $end
+$var reg 2 1 result [1:0] $end
+$upscope $end
+$scope module s2 $end
+$var wire 1 2 A $end
+$var wire 1 3 B $end
+$var wire 1 & Ci $end
+$var wire 1 4 Sum $end
+$var wire 1 % Cout $end
+$var reg 2 5 result [1:0] $end
+$upscope $end
+$scope module s3 $end
+$var wire 1 6 A $end
+$var wire 1 7 B $end
+$var wire 1 % Ci $end
+$var wire 1 8 Sum $end
+$var wire 1 $ Cout $end
+$var reg 2 9 result [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 9
+08
+07
+06
+b0 5
+04
+03
+02
+b0 1
+00
+0/
+0.
+b1 -
+1,
+0+
+0*
+1)
+b1 (
+0'
+0&
+0%
+0$
+z#
+b0 "
+b1 !
+$end
+#5
+10
+b1 1
+b10 (
+0,
+1'
+b10 -
+1*
+b1 "
+#10
+04
+b0 5
+1,
+0'
+b11 (
+10
+0&
+b1 -
+b1 1
+0*
+1/
+b10 "
+#15
+14
+b1 5
+00
+1&
+b10 1
+b100 (
+0,
+1'
+b10 -
+1*
+b11 "
+#20
+08
+b0 9
+1,
+0'
+00
+0&
+b101 (
+14
+0%
+b1 -
+b0 1
+b1 5
+0*
+0/
+13
+b100 "
+#25
+10
+b1 1
+b110 (
+0,
+1'
+b10 -
+1*
+b101 "
+#30
+08
+b0 9
+14
+0%
+b1 5
+1,
+0'
+b111 (
+10
+0&
+b1 -
+b1 1
+0*
+1/
+b110 "
+#35
+18
+b1 9
+04
+1%
+b10 5
+00
+1&
+b10 1
+b1000 (
+0,
+1'
+b10 -
+1*
+b111 "
+#40
+1,
+0'
+00
+0&
+04
+0%
+b1001 (
+18
+0$
+b1 -
+b0 1
+b0 5
+b1 9
+0*
+0/
+03
+17
+b1000 "
+#45
+10
+b1 1
+b1010 (
+0,
+1'
+b10 -
+1*
+b1001 "
+#50
+04
+b0 5
+1,
+0'
+b1011 (
+10
+0&
+b1 -
+b1 1
+0*
+1/
+b1010 "
+#55
+14
+b1 5
+00
+1&
+b10 1
+b1100 (
+0,
+1'
+b10 -
+1*
+b1011 "
+#60
+18
+0$
+b1 9
+1,
+0'
+00
+0&
+b1101 (
+14
+0%
+b1 -
+b0 1
+b1 5
+0*
+0/
+13
+b1100 "
+#65
+10
+b1 1
+b1110 (
+0,
+1'
+b10 -
+1*
+b1101 "
+#70
+18
+0$
+b1 9
+14
+0%
+b1 5
+1,
+0'
+b1111 (
+10
+0&
+b1 -
+b1 1
+0*
+1/
+b1110 "
+#75
+08
+1$
+b10 9
+04
+1%
+b10 5
+00
+1&
+b10 1
+b0 (
+0,
+1'
+b10 -
+1*
+b1111 "
